@@ -19,3 +19,11 @@ out/
 .worksheet
 .idea
 **/.bsp
+
+# vscode
+.vscode/
+
+# metals
+.bloop/
+.metals/
+metals.sbt
