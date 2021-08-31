@@ -95,4 +95,19 @@ object Main extends App {
     else println(price * 0.85)
   }
 
+  // Lesson7
+
+  val tom = new Robot("Tom")
+  val john = new Robot("John")
+  val noName = new Robot
+
+  println(tom.name)
+  println(john.name)
+  println(noName.name)
+  println(tom.welcome("Martin"))
+
+}
+
+class Robot(val name: String = "Unknown") {
+  def welcome(n: String) = s"Welcome $n! My name is $name"
 }
